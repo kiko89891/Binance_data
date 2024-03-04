@@ -1,5 +1,5 @@
 # Binance_data
-websockets,MS SQL,async,spread
+websockets,MS SQL,async,spread,SOLID(design pattern)
 
 
 Class OrderBookTree-The class holds all the global variables to be used in the functions . async def start(self) – Calls the websockets and while it has connection call the function each_order_update_format
