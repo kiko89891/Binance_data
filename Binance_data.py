@@ -120,5 +120,5 @@ async def orderbooks(symbols):
     await asyncio.gather(*tasks)
 
 if __name__ == "__main__":
-    symbols = ["BTCUSDT"]
+    symbols = ["BTCUSDT", "ETHUSDT", "BNBUSDT"] 
     asyncio.run(orderbooks(symbols))
